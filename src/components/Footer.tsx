@@ -16,16 +16,16 @@ export const Footer = () => {
               La conexión inteligente con tu hogar. Automatización y confort para proyectos inmobiliarios.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://facebook.com/smartroga" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://instagram.com/smartroga" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="mailto:info@smartroga.com" className="text-muted-foreground hover:text-primary transition-colors">
                 <Mail className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://wa.me/595994959417" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Phone className="h-5 w-5" />
               </a>
             </div>
@@ -60,11 +60,15 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
-                <span>+54 9 11 XXXX-XXXX</span>
+                <a href="https://wa.me/595994959417" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  +595 994 959417
+                </a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4" />
-                <span>info@smartroga.com</span>
+                <a href="mailto:info@smartroga.com" className="hover:text-primary transition-colors">
+                  info@smartroga.com
+                </a>
               </li>
             </ul>
           </div>
