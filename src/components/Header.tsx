@@ -12,9 +12,12 @@ export const Header = () => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <div className="text-2xl font-bold">
-              <span className="gradient-text">SMART</span>
-              <span className="text-foreground ml-2">ROGA</span>
+            <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-primary to-amber-500 flex items-center justify-center text-sm font-bold text-primary-foreground shadow-lg">
+              SR
+            </div>
+            <div>
+              <p className="font-semibold tracking-wide text-foreground">Smart Roga</p>
+              <p className="text-[10px] text-muted-foreground">Domótica e Inmobiliaria</p>
             </div>
           </Link>
 
@@ -48,9 +51,15 @@ export const Header = () => {
                 0
               </span>
             </Button>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold">
-              Solicitar Relevamiento
-            </Button>
+            <a
+              href="https://wa.me/595994959417?text=Hola%20Smart%20Roga,%20quiero%20automatizar%20mi%20vivienda."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold">
+                Consultar por WhatsApp
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -84,9 +93,16 @@ export const Header = () => {
               <Link to="/contact" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
                 Contacto
               </Link>
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold w-full mt-2">
-                Solicitar Relevamiento
-              </Button>
+              <a
+                href="https://wa.me/595994959417?text=Hola%20Smart%20Roga,%20quiero%20automatizar%20mi%20vivienda."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block mt-2"
+              >
+                <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-semibold w-full">
+                  Consultar por WhatsApp
+                </Button>
+              </a>
             </nav>
           </div>
         )}
